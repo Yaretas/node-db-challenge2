@@ -6,7 +6,7 @@ exports.seed = function (knex) {
       // Inserts seed entries
       return knex('projects').insert([{
         name: 'Project One',
-        description: 'cable management and undusting on places I couldnt reach',
+        description: 'Cable Management',
         completed: true,
       }]);
     });
